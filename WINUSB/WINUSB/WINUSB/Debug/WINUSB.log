@@ -1,0 +1,41 @@
+﻿生成启动时间为 2021/10/6 15:54:26。
+     1>项目“H:\新建文件夹\STM32H7A3\STM32H7A3_WINUSB独立库_下位机发送速度测试\WINUSB\WINUSB\WINUSB\WINUSB.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Visual Studio\VC\bin\CL.exe /c /IC:\Users\jiguoshengbigeng\Desktop\WINUSB\WINUSB\WINUSB\libusb\os /IC:\Users\jiguoshengbigeng\Desktop\WINUSB\WINUSB\WINUSB\libusb /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp Thread.cpp usbthread.cpp WinUSB.cpp
+         WinUSB.cpp
+     1>h:\新建文件夹\stm32h7a3\stm32h7a3_winusb独立库_下位机发送速度测试\winusb\winusb\winusb\libusb.h(783): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>h:\新建文件夹\stm32h7a3\stm32h7a3_winusb独立库_下位机发送速度测试\winusb\winusb\winusb\libusb.h(808): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>h:\新建文件夹\stm32h7a3\stm32h7a3_winusb独立库_下位机发送速度测试\winusb\winusb\winusb\libusb.h(1280): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+         usbthread.cpp
+     1>h:\新建文件夹\stm32h7a3\stm32h7a3_winusb独立库_下位机发送速度测试\winusb\winusb\winusb\libusb.h(783): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>h:\新建文件夹\stm32h7a3\stm32h7a3_winusb独立库_下位机发送速度测试\winusb\winusb\winusb\libusb.h(808): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>h:\新建文件夹\stm32h7a3\stm32h7a3_winusb独立库_下位机发送速度测试\winusb\winusb\winusb\libusb.h(1280): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+         Thread.cpp
+         main.cpp
+     1>h:\新建文件夹\stm32h7a3\stm32h7a3_winusb独立库_下位机发送速度测试\winusb\winusb\winusb\libusb.h(783): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>h:\新建文件夹\stm32h7a3\stm32h7a3_winusb独立库_下位机发送速度测试\winusb\winusb\winusb\libusb.h(808): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>h:\新建文件夹\stm32h7a3\stm32h7a3_winusb独立库_下位机发送速度测试\winusb\winusb\winusb\libusb.h(1280): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>h:\新建文件夹\stm32h7a3\stm32h7a3_winusb独立库_下位机发送速度测试\winusb\winusb\winusb\main.cpp(5): warning C4005: “CLOCKS_PER_SEC”: 宏重定义
+                 e:\visual studio\vc\include\time.h(130) : 参见“CLOCKS_PER_SEC”的前一个定义
+         正在生成代码...
+       Link:
+         E:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\新建文件夹\STM32H7A3\STM32H7A3_WINUSB独立库_下位机发送速度测试\WINUSB\WINUSB\Debug\WINUSB.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\jiguoshengbigeng\Desktop\WINUSB\WINUSB\WINUSB "libusb-1.0.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\新建文件夹\STM32H7A3\STM32H7A3_WINUSB独立库_下位机发送速度测试\WINUSB\WINUSB\Debug\WINUSB.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\新建文件夹\STM32H7A3\STM32H7A3_WINUSB独立库_下位机发送速度测试\WINUSB\WINUSB\Debug\WINUSB.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Thread.obj
+         Debug\usbthread.obj
+         Debug\WinUSB.obj
+         "libusb-1.0.lib"
+         WINUSB.vcxproj -> H:\新建文件夹\STM32H7A3\STM32H7A3_WINUSB独立库_下位机发送速度测试\WINUSB\WINUSB\Debug\WINUSB.exe
+     1>已完成生成项目“H:\新建文件夹\STM32H7A3\STM32H7A3_WINUSB独立库_下位机发送速度测试\WINUSB\WINUSB\WINUSB\WINUSB.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.80

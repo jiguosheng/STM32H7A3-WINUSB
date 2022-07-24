@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+Debug|Win32|H:\新建文件夹\STM32H7A3\STM32H7A3_WINUSB独立库_下位机发送速度测试\WINUSB\WINUSB\|

@@ -1,0 +1,1475 @@
+Dependencies for Project 'SRAM', Target 'SRAM': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (startup_stm32h7a3xxq.s)(0x610E38BB)(--cpu Cortex-M7.fp.dp -g --apcs=interwork -I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "STM32H7A3xxQ SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32h7a3xxq.lst --xref -o sram\startup_stm32h7a3xxq.o --depend sram\startup_stm32h7a3xxq.d)
+F (../Core/Src/main.c)(0x610E392D)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\main.o --depend sram\main.d)
+I (../Core/Inc/main.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+I (../Core/Inc/usart.h)(0x605EDE12)
+I (../USB_DEVICE/App/usb_device.h)(0x605EDE12)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x60E8598B)
+I (../USB_DEVICE/Target/usbd_conf.h)(0x60E84DB9)
+I (E:\keil arm\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (../Core/Inc/gpio.h)(0x605EDE11)
+I (../USB_DEVICE/App/USBD_WinUSB_if.h)(0x60E8D85E)
+I (..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc\USBD_WinUSB.h)(0x60E8E181)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x604C4196)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x604C4196)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x604C4196)
+F (../Core/Src/gpio.c)(0x605EDE11)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\gpio.o --depend sram\gpio.d)
+I (../Core/Inc/gpio.h)(0x605EDE11)
+I (../Core/Inc/main.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Core/Src/usart.c)(0x605EDE12)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\usart.o --depend sram\usart.d)
+I (../Core/Inc/usart.h)(0x605EDE12)
+I (../Core/Inc/main.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+F (../Core/Src/stm32h7xx_it.c)(0x605EDE13)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_it.o --depend sram\stm32h7xx_it.d)
+I (../Core/Inc/main.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_it.h)(0x605EDE13)
+F (../Core/Src/stm32h7xx_hal_msp.c)(0x605EDE13)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_msp.o --depend sram\stm32h7xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_pcd.o --depend sram\stm32h7xx_hal_pcd.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_pcd_ex.o --depend sram\stm32h7xx_hal_pcd_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_ll_usb.o --depend sram\stm32h7xx_ll_usb.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_rcc.o --depend sram\stm32h7xx_hal_rcc.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_rcc_ex.o --depend sram\stm32h7xx_hal_rcc_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_flash.o --depend sram\stm32h7xx_hal_flash.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_flash_ex.o --depend sram\stm32h7xx_hal_flash_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_gpio.o --depend sram\stm32h7xx_hal_gpio.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_hsem.o --depend sram\stm32h7xx_hal_hsem.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_dma.o --depend sram\stm32h7xx_hal_dma.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_dma_ex.o --depend sram\stm32h7xx_hal_dma_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_mdma.o --depend sram\stm32h7xx_hal_mdma.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_pwr.o --depend sram\stm32h7xx_hal_pwr.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_pwr_ex.o --depend sram\stm32h7xx_hal_pwr_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_cortex.o --depend sram\stm32h7xx_hal_cortex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal.o --depend sram\stm32h7xx_hal.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_i2c.o --depend sram\stm32h7xx_hal_i2c.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_i2c_ex.o --depend sram\stm32h7xx_hal_i2c_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_exti.o --depend sram\stm32h7xx_hal_exti.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_tim.o --depend sram\stm32h7xx_hal_tim.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_tim_ex.o --depend sram\stm32h7xx_hal_tim_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_uart.o --depend sram\stm32h7xx_hal_uart.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c)(0x604C4192)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\stm32h7xx_hal_uart_ex.o --depend sram\stm32h7xx_hal_uart_ex.d)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../Core/Src/system_stm32h7xx.c)(0x5FEFF255)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\system_stm32h7xx.o --depend sram\system_stm32h7xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+F (../USB_DEVICE/App/usb_device.c)(0x60E8DB07)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\usb_device.o --depend sram\usb_device.d)
+I (../USB_DEVICE/App/usb_device.h)(0x605EDE12)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x60E8598B)
+I (../USB_DEVICE/Target/usbd_conf.h)(0x60E84DB9)
+I (E:\keil arm\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (../Core/Inc/main.h)(0x605EDE13)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x604C4196)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x604C4196)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x604C4196)
+I (../USB_DEVICE/App/usbd_desc.h)(0x605EDE12)
+I (..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc\USBD_WinUSB.h)(0x60E8E181)
+I (../USB_DEVICE/App/USBD_WinUSB_if.h)(0x60E8D85E)
+F (../USB_DEVICE/App/usbd_desc.c)(0x60FB644E)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\usbd_desc.o --depend sram\usbd_desc.d)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x604C4196)
+I (../USB_DEVICE/Target/usbd_conf.h)(0x60E84DB9)
+I (E:\keil arm\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (../Core/Inc/main.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x60E8598B)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x604C4196)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x604C4196)
+I (../USB_DEVICE/App/usbd_desc.h)(0x605EDE12)
+F (..\USB_DEVICE\App\USBD_WinUSB_if.c)(0x610DE9B4)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\usbd_winusb_if.o --depend sram\usbd_winusb_if.d)
+I (..\USB_DEVICE\App\USBD_WinUSB_if.h)(0x60E8D85E)
+I (..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc\USBD_WinUSB.h)(0x60E8E181)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x604C4196)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x60E8598B)
+I (../USB_DEVICE/Target/usbd_conf.h)(0x60E84DB9)
+I (E:\keil arm\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (../Core/Inc/main.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x604C4196)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x604C4196)
+F (..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Src\USBD_WinUSB.c)(0x610E3194)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\usbd_winusb.o --depend sram\usbd_winusb.d)
+I (..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc\USBD_WinUSB.h)(0x60E8E181)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x604C4196)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x60E8598B)
+I (../USB_DEVICE/Target/usbd_conf.h)(0x60E84DB9)
+I (E:\keil arm\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (../Core/Inc/main.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x604C4196)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x604C4196)
+F (../USB_DEVICE/Target/usbd_conf.c)(0x60E8D9D1)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\usbd_conf.o --depend sram\usbd_conf.d)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x60E8598B)
+I (../USB_DEVICE/Target/usbd_conf.h)(0x60E84DB9)
+I (E:\keil arm\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (../Core/Inc/main.h)(0x605EDE13)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x604C4196)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x604C4196)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x604C4196)
+I (..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc\USBD_WinUSB.h)(0x60E8E181)
+F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c)(0x604C4196)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\usbd_core.o --depend sram\usbd_core.d)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x604C4196)
+I (../USB_DEVICE/Target/usbd_conf.h)(0x60E84DB9)
+I (E:\keil arm\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (../Core/Inc/main.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x60E8598B)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x604C4196)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x604C4196)
+F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c)(0x60E85A39)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\usbd_ctlreq.o --depend sram\usbd_ctlreq.d)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x604C4196)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x60E8598B)
+I (../USB_DEVICE/Target/usbd_conf.h)(0x60E84DB9)
+I (E:\keil arm\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (../Core/Inc/main.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x604C4196)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x604C4196)
+F (../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c)(0x604C4196)(--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ..\Middlewares\ST\STM32_USB_Device_Library\Class\WinUSB\Inc-I.\RTE\_SRAM-I"E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"E:\keil arm\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H7A3xxQ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -DVECT_TAB_SRAM-o sram\usbd_ioreq.o --depend sram\usbd_ioreq.d)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h)(0x604C4196)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h)(0x60E8598B)
+I (../USB_DEVICE/Target/usbd_conf.h)(0x60E84DB9)
+I (E:\keil arm\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (../Core/Inc/main.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h)(0x604C4191)
+I (../Core/Inc/stm32h7xx_hal_conf.h)(0x605EDE13)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h)(0x604C4191)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h)(0x604C4189)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7a3xxq.h)(0x604C4189)
+I (../Drivers/CMSIS/Include/core_cm7.h)(0x604C4190)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x604C4190)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x604C4190)
+I (../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h)(0x604C4189)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x604C4191)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h)(0x604C4191)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h)(0x604C4192)
+I (../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h)(0x604C4191)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x604C4196)
+I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x604C4196)
